@@ -1,0 +1,19 @@
+body {
+    background: #eaf6ff;
+    text-align: center;
+    font-family: Arial;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.doctor {
+    width: 200px;
+}
+
+button {
+    padding: 15px;
+    margin: 10px;
+    font-size: 16px;
+}

@@ -1,0 +1,6 @@
+fever,headache,cough,vomiting,disease
+1,1,0,1,Dengue
+1,0,1,0,Viral_Fever
+0,0,1,0,Cold
+1,1,1,0,Flu
+0,0,0,0,Healthy

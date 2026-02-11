@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <img src="{{ url_for('static', filename='doctor.png') }}" class="doctor">
+    <h2>Doctor: Do you have {{ symptom }}?</h2>
+
+    <form method="POST">
+        <button name="answer" value="yes">Yes</button>
+        <button name="answer" value="no">No</button>
+    </form>
+</div>
+
+</body>
+</html>
